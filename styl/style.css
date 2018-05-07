@@ -1,5 +1,61 @@
 body {
-  font: 12px/1.4 "Lucida Grande", Arial, sans-serif;
-  background: #000;
-  color: #ccc;
+  font: 12px/1.4 Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #fff;
+  color: #111;
+  display: grid;
+  margin: 50px 15%;
+}
+@media (max-width: 575px) {
+  body {
+    margin: 10px;
+  }
+}
+.container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 575px;
+}
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+}
+h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+a {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.1);
+  background: #fff;
+  padding: 15px 20px 13px;
+  color: #111;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  border: none;
+  text-align: center;
+  transform: translateZ(0);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  width: 20%;
+}
+@media (max-width: 575px) {
+  a {
+    width: 50%;
+  }
+}
+a:hover {
+  box-shadow: 0 1px 7px rgba(0,0,0,0.1);
+  background-color: #fefefe;
+  color: #05f;
 }
