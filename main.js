@@ -26,7 +26,7 @@ const Amount = ({amount, type}) => {
 };
 
 const Days = () => {
-    const days = daysLeft(getNextBirthday(), new Date());
+    const days = daysLeft(getNextBirthday(birthday), new Date());
     return <Amount amount={Math.floor(days)} type="days" />
 }
 
