@@ -1,2 +1,19 @@
-# birthday
-Calculate how many days until my birthday
+## Birthday
+
+An [online countdown](https://www.harrymt.com/birthday) to my Birthday.
+
+Made using the CSS preprocessor [Stylus](http://stylus-lang.com/)!
+
+### Development
+
+Run site in local server.
+
+```
+$ npx local-web-server
+```
+
+Then run this command to watch for Stylus changes.
+
+```
+$ npx stylus -w styl/style.styl
+```

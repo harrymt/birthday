@@ -1,0 +1,15 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "author": "Harry Mumford-Turner",
+  "description": "Calculate a countdown until my birthday.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrymt/birthday.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrymt/birthday/issues"
+  },
+  "homepage": "https://github.com/harrymt/birthday#readme"
+}
